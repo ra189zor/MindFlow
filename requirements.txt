@@ -1,0 +1,27 @@
+streamlit
+crewai
+openai
+chromadb
+langchain-openai
+python-dotenv
+
+
+# Core Frameworks & UI
+streamlit
+crewai
+
+# LLM & LangChain Components
+openai  # Direct OpenAI client and potentially for specific error types
+langchain # Core LangChain library (might be a dependency, but good to list explicitly)
+langchain-community # For community tools like DuckDuckGoSearchRun
+langchain-openai # For the OpenAI LLM integration with LangChain/CrewAI
+
+# Vector Store (Keep if you plan to use chroma_setup.py)
+chromadb
+
+# Utilities
+python-dotenv # For loading .env files
+tenacity # For implementing retry logic
+
+# LLM Management (Often a dependency of CrewAI, but explicit listing is safer for exception handling)
+litellm
